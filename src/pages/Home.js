@@ -1,16 +1,18 @@
 import Header from "../components/Header";
-import MainImage from "../components/HeaderImage";
-import BasicExample from "../components/Cards";
-import NewCarousel from "../components/Carousel";
+import Testimonial from "../components/SectionTestimonial";
+import VideosSection from "../components/VideosSection";
+import FreeMembership from "../components/FreeMembership";
+import FAQSection from "../components/FaqSection";
 import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <MainImage />
-      <BasicExample />
-      <NewCarousel />
+      <Testimonial />
+      <VideosSection />
+      <FreeMembership />
+      <FAQSection />
       <Footer />
     </>
   );

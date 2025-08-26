@@ -1,42 +1,29 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import logo from "../images/logo.png";
+import facebook from "../images/facebook.png";
+import twitter from "../images/twitter.png";
+import instagram from "../images/instagram.png";
 
 const Footer = () => {
   return (
-    <footer
-      style={{ backgroundColor: "#343a40", color: "#fff", padding: "20px 0" }}
-    >
-      <Container>
-        <Row>
-          <Col md={4}>
-            <h5>Kontakti</h5>
-            <p>Email: example@example.com</p>
-            <p>Telefoni: +1234567890</p>
-          </Col>
-          <Col md={4} className="text-center">
-            <h5>Ndihma</h5>
-            <p>Si të na kontaktoni</p>
-            <p>Përmbledhje të shërbimeve</p>
-          </Col>
-          <Col md={4} className="text-end">
-            <h5>Social Media</h5>
-            <a href="#/" className="text-white me-3">
-              Facebook
+    <footer>
+      <div className="footer-content">
+        <div className="footer-images">
+          <img src={logo} alt="Website Logo" />
+          <div className="footer-images-with-link">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <img src={facebook} alt="Facebook" />
             </a>
-            <a href="#/" className="text-white me-3">
-              Twitter
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <img src={twitter} alt="Twitter" />
             </a>
-            <a href="#/" className="text-white me-3">
-              Instagram
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <img src={instagram} alt="Instagram" />
             </a>
-          </Col>
-        </Row>
-        <Row className="mt-3">
-          <Col className="text-center">
-            <p>&copy; 2025 Të gjitha të drejtat e rezervuara.</p>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+        <p>© smileschool 2020</p>
+      </div>
     </footer>
   );
 };

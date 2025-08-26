@@ -1,0 +1,21 @@
+.logo-container {
+  width: 40%;
+  float: left;
+  margin-left: 30px;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.school-container > h1 {
+  margin: 300px 0 0 0 !important;
+}
+
+.school-container > button {
+  background-color: #c271ff !important;
+}
+
+.text-purple {
+  color: #c271ff !important;
+}
