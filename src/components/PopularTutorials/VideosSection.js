@@ -1,13 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
 import { Card } from "react-bootstrap";
-import videos from "../mockdata/videos.js";
+import videos from "../../mockdata/videos.js";
 import { IoStarSharp } from "react-icons/io5";
-import "../CSS/Card.css";
+import "../../CSS/Card.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const VideosSection = () => {
+const PopularTutorials = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -80,4 +80,4 @@ const VideosSection = () => {
   );
 };
 
-export default VideosSection;
+export default PopularTutorials;

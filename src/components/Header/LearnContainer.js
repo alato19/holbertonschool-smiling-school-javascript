@@ -1,9 +1,9 @@
 import React from "react";
-import student1 from "../images/student_1.png";
-import student2 from "../images/student_2.png";
-import student3 from "../images/student_3.png";
-import student4 from "../images/student_4.png";
-import "../CSS/Header.css";
+import student1 from "../../images/student_1.png";
+import student2 from "../../images/student_2.png";
+import student3 from "../../images/student_3.png";
+import student4 from "../../images/student_4.png";
+import "./Header.css";
 
 const LearnContainer = () => {
   return (

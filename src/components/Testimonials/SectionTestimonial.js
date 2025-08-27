@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import SimpleSpinner from "./SimpleSpinner";
+import SimpleSpinner from "../Spinner/SimpleSpinner";
 import Testimonials from "./Testimonials";
 
 const SectionTestimonial = () => {

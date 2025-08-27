@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Header.css";
+import "./Header.css";
 
 const SchoolContainer = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import testimonials from "../mockdata/testimonial-people";
-import "../CSS/Testimonial.css";
+import testimonials from "../../mockdata/testimonial-people";
+import "./Testimonial.css";
 
 const TestimonialCarousel = () => {
   return (

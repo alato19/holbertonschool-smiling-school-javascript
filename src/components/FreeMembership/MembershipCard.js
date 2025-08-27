@@ -7,8 +7,6 @@ const MembershipCard = ({ imgSrc, title, description }) => {
       style={{ width: "20%" }}
     >
       <img src={imgSrc} alt={title} />
-      <h2>{title}</h2>
-      <p>{description}</p>
     </div>
   );
 };

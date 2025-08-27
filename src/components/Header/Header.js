@@ -2,7 +2,7 @@ import React from "react";
 import NavContainer from "./NavContainer"; // your navbar component
 import SchoolContainer from "./SchoolContainer"; // your school section
 import LearnContainer from "./LearnContainer"; // your learn section
-import headerBg from "../images/header-image.png"; // background image
+import headerBg from "../../images/header-image.png"; // background image
 
 const Header = () => {
   const headerStyle = {
